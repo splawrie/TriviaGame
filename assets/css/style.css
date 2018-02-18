@@ -9,17 +9,17 @@ body{
 }
 
 #wrapper{
-  padding: 5% 0;
-  background-color: #FFF17A;
-  width:960px;
-  margin:5% auto;
   box-sizing: border-box;
-  min-height: 80%;
+  padding:50px 0;
+  width:960px;
+  margin:90px auto;
+  min-height: 700px;
+  background-color: #66d9ff;
 }
 
 #secondWrapper{
   position: relative;
-  top:20%;
+  top:150px;
 }
 
 button{
@@ -30,16 +30,16 @@ button{
   border:none;
   cursor: pointer;
   background:transparent;
-  font-size: 42px;;
+  font-size: 50px;;
 }
 
 
 h1{
-  font-family: 'Geo', sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 6.5em;
   margin-bottom: 50px;
   font-weight: bold;
-  color:blue;
+  color:white;
 }
 
 h2{
@@ -54,8 +54,8 @@ h3{
 
 #start{
   margin-top: 10%;
-  border:2px solid blue;
-  background: pink;
+  border:2px solid #037623;
+  background: #ffff66;
 }
 
 #quiz-area h2{
@@ -64,5 +64,5 @@ h3{
 
 button:hover {
   border:2px solid blue;
-  background: pink;
+  background: yellow;
 }

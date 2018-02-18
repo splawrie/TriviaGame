@@ -70,7 +70,7 @@ var game = {
 
   countdown: function(){
     game.counter--;
-    $('#counter-number').html(game.counter);
+    $('#count').html(game.counter);
 
     if (game.counter === 0){
       console.log('TIME UP');
@@ -80,7 +80,7 @@ var game = {
 
   start: function() {
     timer = setInterval(game.countdown, 1000);
-    $('#secondWrapper').prepend('<h2>Time Remaining: <span id="counter-number">120</span> Seconds</h2>');
+    $('#secondWrapper').prepend('<h2>Time Remaining: <span id="count">120</span> Seconds</h2>');
     $('#start').remove();
 
     for (var i = 0; i < questions.length; i++) {
