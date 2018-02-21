@@ -1,7 +1,7 @@
 # TriviaGame
 
 There are 10 questions to be answered.  You have 120 seconds to answer them all by
-clicking on the correct radio button.  
+clicking on the correct radio button.  Link to the Trivia game is https://splawrie.github.io/TriviaGame/
 
 To start the quiz click the Start Button.
 
